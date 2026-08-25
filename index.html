@@ -276,7 +276,7 @@
   .timeline::before {
     content: "";
     position: absolute;
-    left: 126px;
+    left: 158px;
     top: 6px;
     bottom: 6px;
     width: 1px;
@@ -285,14 +285,14 @@
   .tl-item {
     position: relative;
     display: grid;
-    grid-template-columns: 126px 1fr;
+    grid-template-columns: 158px 1fr;
     gap: 24px;
     padding-bottom: 32px;
   }
   .tl-item:last-child { padding-bottom: 0; }
   .tl-year {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 12.5px;
+    font-size: 12px;
     color: var(--ink-faint);
     text-align: right;
     padding-top: 2px;
@@ -301,7 +301,7 @@
   }
   .tl-dot {
     position: absolute;
-    left: 122px;
+    left: 154px;
     top: 5px;
     width: 9px;
     height: 9px;
@@ -374,7 +374,7 @@
   .pub-links a:hover { color: var(--accent); }
 
   /* ---------- CONTACT / FOOTER ---------- */
-  .contact p { color: var(--ink-soft); max-width: 480px; margin: 0 0 8px; }
+  .contact p { color: var(--ink-soft); max-width: 720px; margin: 0 0 8px; }
   .contact-list { margin-top: 24px; }
   .contact-list a {
     display: flex;
@@ -465,7 +465,7 @@
         <p class="tagline">I love studying large language models, spanning their evaluation, interpretability, and behavior across languages and settings.</p>
         <div class="hero-links">
           <a href="https://scholar.google.com/citations?user=svtDJREAAAAJ&hl=en">Google Scholar<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-          <a href="https://aclanthology.org/people/siam-rahman-karip/">ACLAnthology<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+          <!-- <a href="https://aclanthology.org/people/siam-rahman-karip/">ACLAnthology<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a> -->
           <a href="https://orcid.org/0009-0004-9750-4914">ORCID<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
           <a href="https://github.com/siamkarip">GitHub<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
           <!-- <a href="#">Semantic Scholar<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></a> -->
@@ -489,17 +489,17 @@
       <span class="sec-num">01</span>
       <h2 class="sec-title">About</h2>
     </div>
-    <p>I am an independent researcher working broadly in NLP and large language models with a particular focus on rigorous, protocol-aware evaluation. I care about why a model appears to perform a certain way, not just whether it does, which has led me toward controlled comparisons that isolate architecture and decoding strategy from confounds like training data or evaluation methodology. I'm also interested in extending these newer modeling approaches beyond the well-resourced settings they're usually developed in, particularly to low-resource languages where their practical value remains an open question.</p>
+    <p>I am an independent researcher working on large language models. My interests center on evaluation and reliability, understanding not just how well a model performs, but why. I am currently comparing diffusion and autoregressive language models under controlled conditions, looking closely at how decoding strategy and evaluation protocol shape the results we see. I am also interested in low-resource NLP, and whether recent advances in language modeling actually hold up beyond a handful of well-resourced languages. I remain open to new directions within this space, and I enjoy following a good question wherever it leads.</p>
 
     <p>I am currently looking for PhD positions where I can work with Large Language Models in a more structured research environment. I'm open to related directions as well and happy to discuss potential fit.</p>
 
     
     <div class="interests">
-      <span>Multilingual NLP</span>
-      <span>Interpretability</span>
-      <span>Efficient Training</span>
-      <span>Representation Learning</span>
-      <span>Low-Resource Languages</span>
+      <span>Large Language Models</span>
+      <!-- <span>Natural Language Processing</span> -->
+      <span>Trustworthy Machine Learning</span>
+      <!-- <span>Representation Learning</span> -->
+      <span>Low-Resource NLP</span>
     </div>
   </section>
 
@@ -512,12 +512,12 @@
     <div class="timeline">
 
       <div class="tl-item">
-        <div class="tl-year">2025 — 2026</div>
+        <div class="tl-year">Apr 2025 – Jul 2026</div>
         <div class="tl-dot"></div>
         <div class="tl-body">
           <h3>Research Assistant</h3>
           <div class="tl-org">Institute of Advanced Research, United International University</div>
-          <p>Leading a project on attention bottlenecks in multilingual transformers, including probing experiments across 14 languages and an open-source toolkit for cross-lingual representation analysis.</p>
+          <p>Conducted research in large language models and natural language processing, with a focus on model behavior, evaluation, and reliability, under the supervision of Nahid Hossain.</p>
         </div>
       </div>
 
@@ -573,12 +573,12 @@
       </div> -->
 
       <div class="tl-item">
-        <div class="tl-year">2021 – 2025</div>
+        <div class="tl-year">Feb 2021 – Jan 2025</div>
         <div class="tl-dot"></div>
         <div class="tl-body">
           <h3>BSc, Computer Science and Engineering</h3>
           <div class="tl-org">BRAC University</div>
-          <p>Undergraduate coursework focused on machine learning and formal linguistics; senior project on syntactic parsing.</p>
+          <p>Graduated with Distinction. Appeared on the Vice Chancellor's List and Dean's List for last three consecutive semesters.</p>
         </div>
       </div>
 
@@ -600,8 +600,8 @@
       <p class="pub-title">Systematic Failure Analysis of Open-Weight LLM Annotators for Classification Tasks: Taxonomy, Uncertainty Signals, and Deployment Boundaries</p>
       <p class="pub-authors">N. Hossain, <span class="me">S. R. Karip</span>, M. F. Kabir, S. Shatabda, S. Islam</p>
       <div class="pub-meta">
-        <span class="pub-venue">EMNLP Main 2026</span>
-        <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div>
+        <span class="pub-venue">EMNLP 2026 - Main (To Appear)</span>
+        <!-- <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a><a href="#">BibTeX</a></div> -->
       </div>
     </div>
 
@@ -609,8 +609,8 @@
       <p class="pub-title">AlienAnnotators at PsyDefDetect: What Lies Between the Lines: Probing Lightweight Open-Source LLMs for Psychological Defense Mechanism Detection</p>
       <p class="pub-authors"><span class="me">S. R. Karip</span>, N. Hossain</p>
       <div class="pub-meta">
-        <span class="pub-venue">Proceedings of the BioNLP 2026</span>
-        <div class="pub-links"><a href="#">PDF</a><a href="#">Code</a></div>
+        <span class="pub-venue">BioNLP Workshop (Shared Tasks) - ACL 2026</span>
+        <div class="pub-links"><a href="https://aclanthology.org/2026.bionlp-2.28.pdf">PDF</a>
       </div>
     </div>
 
@@ -644,9 +644,9 @@
       <span class="sec-num">05</span>
       <h2 class="sec-title">Contact</h2>
     </div>
-    <p>I'm always happy to talk about multilingual NLP, interpretability, or PhD life in general. The best way to reach me is by email.</p>
+    <p>I'm always happy to talk about large language models, low-resource NLP or just share ideas. The best way to reach me is by email.</p>
     <div class="contact-list">
-      <a href="mailto:maya.ostrovsky@fictional.edu">
+      <a href="mailto:siam.rahman.karip@g.bracu.ac.bd">
         <span class="label">Email</span>
         <span class="value">siam.rahman.karip@g.bracu.ac.bd<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
       </a>
@@ -658,7 +658,7 @@
         <span class="label">GitHub</span>
         <span class="value">github.com/karip00<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
       </a> -->
-      <a href="#">
+      <a href="https://www.linkedin.com/in/siamkarip">
         <span class="label">LinkedIn</span>
         <span class="value">linkedin.com/in/siamkarip<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
       </a>
